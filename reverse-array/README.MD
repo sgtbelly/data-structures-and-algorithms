@@ -1,8 +1,11 @@
 # Reverse an Array
+we need to reverse an array.
 <!-- Short summary or background information -->
 
 ## Challenge
+Write a function called reverseArray which takes an array as an argument. Without utilizing any of the built-in methods available to your language, return the provided array argument with elements in reversed order.
 <!-- Description of the challenge -->
 
 ## Solution
+![Solution White-Board](./Assets/IMG_20181002_195715995.jpg)
 <!-- Embedded whiteboard image -->
