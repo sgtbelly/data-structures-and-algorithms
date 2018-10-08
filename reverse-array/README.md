@@ -7,5 +7,5 @@ Write a function called reverseArray which takes an array as an argument. Withou
 <!-- Description of the challenge -->
 
 # Solution
-![whiteboard solution](./Assets/array-reverse.jpg)
+![whiteboard solution](../Assets/array-reverse.jpg)
 
