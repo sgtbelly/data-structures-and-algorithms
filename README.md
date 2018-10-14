@@ -21,3 +21,8 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 
 ## Solution
 <!-- Embedded whiteboard image -->
+![arrar_binary_search](./Assets/array_binary_search.jpeg)<br />
+
+#
+#
+
