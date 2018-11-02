@@ -59,6 +59,22 @@ class LinkedList {
 
   }
 
+  getKthFromEnd(n) {
+    let offset = this.head;
+    let k = this.head;
+
+    for( let i=0; i++ ) {
+      offset = offset.next
+    }
+
+    while(offset.next) {
+      offset = offset.next;
+      k = k.next;
+    }
+
+    return k;
+  }
+
 
 
 }

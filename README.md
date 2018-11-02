@@ -26,6 +26,21 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 #
 #
 
+# ​ k-th value from the end of a linked list. ​
+<!-- Short summary or background information -->
+get the ​ k-th value from the end of a linked list. ​
+
+## Challenge
+<!-- Description of the challenge -->
+Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list. You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges. ​
+
+## Solution
+<!-- Embedded whiteboard image -->
+![ll_kth_from_end](./Assets/ll_kth_from_end.jpg)<br />
+
+#
+#
+
 # Merge two Linked Lists
 <!-- Short summary or background information -->
 take two linked list and merge them
