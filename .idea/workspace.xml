@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+
     <list default="true" id="123e1425-1915-4772-9276-2070b574116b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaScript/lib/ll.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/lib/ll.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,32 +23,41 @@
         <counts>
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
+
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+
           <entry key="jpg" value="1" />
           <entry key="js" value="1" />
           <entry key="md" value="1" />
+
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<
           <entry key="Image" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="1" />
+
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+
           <entry key="js" value="6" />
           <entry key="md" value="101" />
+
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+
           <entry key="JavaScript" value="6" />
           <entry key="Markdown" value="101" />
+
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -72,6 +83,7 @@
                 <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               </first_editor>
               <second_editor />
+
             </state>
           </provider>
         </entry>
@@ -93,8 +105,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+
         <option value="$PROJECT_DIR$/JavaScript/lib/ll.js" />
+
         <option value="$PROJECT_DIR$/README.md" />
+
       </list>
     </option>
   </component>
@@ -109,6 +124,7 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+
       <path value="$PROJECT_DIR$/JavaScript/node_modules/@babel/code-frame/package.json" />
       <path value="$PROJECT_DIR$/JavaScript/node_modules/@babel/highlight/node_modules/js-tokens/package.json" />
       <path value="$PROJECT_DIR$/JavaScript/node_modules/@babel/highlight/package.json" />
@@ -743,12 +759,15 @@
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+
+
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -759,7 +778,9 @@
             <path>
               <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+
               <item name="Assets" type="462c0819:PsiDirectoryNode" />
+
             </path>
             <path>
               <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -776,11 +797,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+
+
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+
+
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="/usr/local/lib/node_modules/eslint" />
@@ -804,17 +828,22 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+
       <changelist id="123e1425-1915-4772-9276-2070b574116b" name="Default Changelist" comment="" />
       <created>1541056040092</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541056040092</updated>
+
       <workItem from="1541056041267" duration="1980000" />
+
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+
     <option name="totallyTimeSpent" value="1980000" />
+
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -824,6 +853,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Quokka" />
+
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32923833" />
@@ -834,10 +864,12 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Terminal" order="3" weight="0.21101573" />
+
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -847,6 +879,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+
     <entry file="file://$PROJECT_DIR$/Assets/ll_merge.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -864,6 +897,7 @@
             <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           </first_editor>
           <second_editor />
+
         </state>
       </provider>
     </entry>
