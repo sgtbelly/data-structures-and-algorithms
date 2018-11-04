@@ -4,8 +4,10 @@ const Node = require('./node.js');
 
 class LinkedList {
 
-  constructor() {
+  constructor(value) {
     this.head = null;
+    this.length = 0;
+    this.addToHead(value);
   }
 
   prepend(value) {
