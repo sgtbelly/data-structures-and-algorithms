@@ -121,3 +121,24 @@ dequeue(pref): returns either a dog or a cat. If pref, a string, is ‘cat’ re
 #
 #
 
+# Multi-bracket Validation.
+<!-- Short summary or background information -->
+Your function should take a string as its only argument, and should return a boolean representing whether or not the brackets in the string are balanced.
+
+## Challenge
+<!-- Description of the challenge -->
+Your function should take a string as its only argument, and should return a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets:
+
+Round Brackets : ()
+Square Brackets : []
+Curly Brackets : {}
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Big O = O(n)
+for this approach I am taking the testing brackets and running them through a stack and checking them through the stack in each position to check to see if has been used in the array and what position and comparing the two.
+
+## Solution
+<!-- Embedded whiteboard image -->
+![multi_Bracket_Validation](./Assets/multi-Bracket-Validation.jpg)
+
