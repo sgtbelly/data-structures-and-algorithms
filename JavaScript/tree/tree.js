@@ -108,6 +108,25 @@ class BinaryTree {
     }
     return results;
   }
+
+  BreadthFirst() {
+
+    while(!nodeQueue.isEmpty()) {
+      let current = nodeQueue.dequeue();
+      callbacks.enterNode(current);
+
+      if (current.left && callbacks.allowTraversal(current, current.left)) {
+        nodeQueue.enqueue(current.left);
+      }
+
+      if (current.right && callbacks.allowTraversal(current, current.right)) {
+        nodeQueuee.enqueue(current.right);
+      }
+
+      callbacks.leaveNode(current);
+    }
+
+  }
 }
 class BinarySearchTree{
   constructor(root = null) {
@@ -144,6 +163,13 @@ class BinarySearchTree{
     _insert(node);
   }
 
+class BFTraversal(function (value, depth)
+return value % 2;
+})	 // This function should return [1, 3, 5, 7]
+
+class BFTraversal(function (value, depth) {
+  return depth === 1;
+})	// This function should return [2, 3]
 }
 
 let tree = new BinaryTree();
@@ -155,4 +181,4 @@ console.log(tree.postOrder());
 console.log(tree.inOrder());
 console.log(tree.levelOrder());
 
-impor superagent
+import superagent;
