@@ -142,3 +142,30 @@ for this approach I am taking the testing brackets and running them through a st
 <!-- Embedded whiteboard image -->
 ![multi_Bracket_Validation](./Assets/multi-Bracket-Validation.jpg)
 
+#
+#
+
+# FizzBuzz on a tree
+<!-- Short summary or background information -->
+Conduct “FizzBuzz” on a tree while traversing through it. Change the values of each of the nodes dependent on the current node’s value
+
+## Challenge
+<!-- Description of the challenge -->
+Write a function called FizzBuzzTree which takes a tree as an argument.
+Without utilizing any of the built-in methods available to your language, determine weather or not the value of each node is divisible by 3, 5 or both, and change the value of each of the nodes:
+
+- If the value is divisible by 3, replace the value with “Fizz”
+- If the value is divisible by 5, replace the value with “Buzz”
+- If the value is divisible by 3 and 5, replace the value with “FizzBuzz”
+
+Return the tree with its news values.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Big O = O(n)
+for this im going to test that the numbers are actually in the tree. Test to see if they are actually numbers instead of objects. 
+
+## Solution
+<!-- Embedded whiteboard image -->
+![fizz-buzz-tree](./Assets/FizzBuzzTree.jpg)
+
