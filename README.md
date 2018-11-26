@@ -169,3 +169,19 @@ for this im going to test that the numbers are actually in the tree. Test to see
 <!-- Embedded whiteboard image -->
 ![fizz-buzz-tree](./Assets/FizzBuzzTree.jpg)
 
+# Breadth-first Traversal.
+<!-- Short summary or background information -->
+return all values in the tree
+
+## Challenge
+Write a breadth first traversal method which takes a Binary Tree as its unique input. Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach; print every visited node’s value.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Big O = O(n)
+i would test to see if the numbers returned are actually in the tree, check to see if they are not objects
+
+## Solution
+<!-- Embedded whiteboard image -->
+![breadth-first-traversal](./Assets/breadth-first-traversal.jpg)
+
