@@ -127,7 +127,22 @@ class BinaryTree {
     }
 
   }
+
+  findMaxValue() {
+
+    if (!node){
+      return 0;
+    }
+    if (node.right){
+      return maxNode(node.right);
+    }
+    if (node.left){
+      return maxNode(node.left);
+    }
+    return node.value;
+  }
 }
+
 class BinarySearchTree{
   constructor(root = null) {
     this.root = root;
@@ -180,5 +195,7 @@ console.log(tree.preOrder());
 console.log(tree.postOrder());
 console.log(tree.inOrder());
 console.log(tree.levelOrder());
+console.log(tree.findMaxValue());
+console.log(tree.BreadthFirst());
 
 import superagent;
