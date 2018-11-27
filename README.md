@@ -185,3 +185,19 @@ i would test to see if the numbers returned are actually in the tree, check to s
 <!-- Embedded whiteboard image -->
 ![breadth-first-traversal](./Assets/breadth-first-traversal.jpg)
 
+# Find the Maximum Value in a Binary Tree
+<!-- Short summary or background information -->
+return max value in the tree
+
+## Challenge
+find the max value in the binary tree.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Big O = O(n)
+i would test to see if the numbers returned are actually in the tree, check to see if they are not objects
+
+## Solution
+<!-- Embedded whiteboard image -->
+![find-maximum-value-binary-tree](./Assets/find-maximum-value-binary-tree.jpg)
+
