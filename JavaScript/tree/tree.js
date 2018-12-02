@@ -44,53 +44,34 @@ class BinaryTree {
   }
 
 
-  preOrder() {
-    let results = [];
-    let _walk = node => {
-      results.push(node.value);
-      if (node.left) {
-        _walk(node.left);
-      }
-      if (node.right) {
-        _walk(node.right);
-      }
-    };
-    _walk(this.root);
-    return results;
+  preOrder(value) {
+    const node = this.root;
+    if(node != null){
+      console.log(node.data);
+      this.preOrder(node.left);
+      this.preOrder(node.right);
+    }
   }
 
-  postOrder() {
-    let results = [];
-
-    let _walk = node => {
-      if (node.left) {
-        _walk(node.left);
-      }
-      if (node.right) {
-        _walk(node.right);
-      }
-      results.push(node.value);
-    };
-    _walk(this.root);
-    return results;
+  postOrder(value) {
+    const node = this.root;
+    if(node != null){
+      this.postOrder(node.left);
+      this.postOrder(node.right);
+      console.log(node.data);
+    }
   }
 
-  inOrder() {
-    let results = [];
-    let _walk = node => {
-      if (node.left) {
-        _walk(node.left);
-      }
-      results.push(node.value);
-      if (node.right) {
-        _walk(node.right);
-      }
-    };
-    _walk(this.root);
-    return results;
+  inOrder(value) {
+    const node = this.root;
+    if(node !== null){
+      this.inOrder(node.left);
+      console.log(node.value);
+      this.inOrder(node.right);
+    }
   }
 
-  levelOrder() {
+  levelOrder(value) {
     let results = [];
     let nodeQueue = [];
 
@@ -108,41 +89,7 @@ class BinaryTree {
     }
     return results;
   }
-
-  BreadthFirst() {
-
-    while(!nodeQueue.isEmpty()) {
-      let current = nodeQueue.dequeue();
-      callbacks.enterNode(current);
-
-      if (current.left && callbacks.allowTraversal(current, current.left)) {
-        nodeQueue.enqueue(current.left);
-      }
-
-      if (current.right && callbacks.allowTraversal(current, current.right)) {
-        nodeQueuee.enqueue(current.right);
-      }
-
-      callbacks.leaveNode(current);
-    }
-
-  }
-
-  findMaxValue() {
-
-    if (!node){
-      return 0;
-    }
-    if (node.right){
-      return maxNode(node.right);
-    }
-    if (node.left){
-      return maxNode(node.left);
-    }
-    return node.value;
-  }
 }
-
 class BinarySearchTree{
   constructor(root = null) {
     this.root = root;
@@ -178,16 +125,33 @@ class BinarySearchTree{
     _insert(node);
   }
 
-class BFTraversal(function (value, depth)
-return value % 2;
-})	 // This function should return [1, 3, 5, 7]
+  // search for a node with given data
+  search(node, data)
+  {
+    // if trees is empty return null
+    if(node === null)
+      return null;
 
-class BFTraversal(function (value, depth) {
-  return depth === 1;
-})	// This function should return [2, 3]
+    // if data is less than node's data
+    // move left
+    else if(data < node.data)
+      return this.search(node.left, data);
+
+    // if data is less than node's data
+    // move left
+    else if(data > node.data)
+      return this.search(node.right, data);
+
+    // if data is equal to the node data
+    // return node
+    else
+      return node;
+  }
+
 }
 
 let tree = new BinaryTree();
+let bsTree = new BinarySearchTree();
 let values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 42, 35, 46, 57, 68, 79, 100];
 values.map(val => tree.insert(val));
 
@@ -195,7 +159,6 @@ console.log(tree.preOrder());
 console.log(tree.postOrder());
 console.log(tree.inOrder());
 console.log(tree.levelOrder());
-console.log(tree.findMaxValue());
-console.log(tree.BreadthFirst());
+console.log(bsTree.add());
+console.log(bsTree.search());
 
-import superagent;
