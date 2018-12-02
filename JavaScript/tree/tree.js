@@ -53,7 +53,7 @@ class BinaryTree {
     }
   }
 
-  postOrder(node) {
+  postOrder(value) {
     const node = this.root;
     if(node != null){
       this.postOrder(node.left);
@@ -62,16 +62,16 @@ class BinaryTree {
     }
   }
 
-  inOrder(node) {
+  inOrder(value) {
     const node = this.root;
     if(node !== null){
       this.inOrder(node.left);
-      console.log(node.value)
-      this.inOrder(node.right)
+      console.log(node.value);
+      this.inOrder(node.right);
     }
   }
 
-  levelOrder() {
+  levelOrder(value) {
     let results = [];
     let nodeQueue = [];
 
