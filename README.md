@@ -149,11 +149,31 @@ first repeated word
 ## Challenge
 <!-- Description of the challenge -->
 return the first repeated word
+#
+#
+
+# FizzBuzz on a tree
+<!-- Short summary or background information -->
+Conduct “FizzBuzz” on a tree while traversing through it. Change the values of each of the nodes dependent on the current node’s value
+
+## Challenge
+<!-- Description of the challenge -->
+Write a function called FizzBuzzTree which takes a tree as an argument.
+Without utilizing any of the built-in methods available to your language, determine weather or not the value of each node is divisible by 3, 5 or both, and change the value of each of the nodes:
+
+- If the value is divisible by 3, replace the value with “Fizz”
+- If the value is divisible by 5, replace the value with “Buzz”
+- If the value is divisible by 3 and 5, replace the value with “FizzBuzz”
+
+Return the tree with its news values.
+
 
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 Big O = O(n)
+
+
 for this approach i goting to put each word in a seperate array then i am going to compare that the current word by using two for loops like the tortise and the hare and when they both match the first time it will return said word.
 
 ## Solution
@@ -172,12 +192,55 @@ Find common values in 2 binary trees.
 Write a function called tree_intersection that takes two binary tree parameters.
 
 
+
+for this im going to test that the numbers are actually in the tree. Test to see if they are actually numbers instead of objects. 
+
+## Solution
+<!-- Embedded whiteboard image -->
+![fizz-buzz-tree](./Assets/FizzBuzzTree.jpg)
+
+# Breadth-first Traversal.
+<!-- Short summary or background information -->
+return all values in the tree
+
+## Challenge
+Write a breadth first traversal method which takes a Binary Tree as its unique input. Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach; print every visited node’s value.
+
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 Big O = O(n)
+i would test to see if the numbers returned are actually in the tree, check to see if they are not objects
+
+## Solution
+<!-- Embedded whiteboard image -->
+![breadth-first-traversal](./Assets/breadth-first-traversal.jpg)
+
+# Find the Maximum Value in a Binary Tree
+<!-- Short summary or background information -->
+return max value in the tree
+
+## Challenge
+find the max value in the binary tree.
+
+
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Big O = O(n)
+
+
 compare between both trees to findany cmmon nodes. 
 
 ## Solution
 <!-- Embedded whiteboard image -->
 ![tree_intersection](./Assets/tree_Intersection.jpg)
+
+
+i would test to see if the numbers returned are actually in the tree, check to see if they are not objects
+
+## Solution
+<!-- Embedded whiteboard image -->
+![find-maximum-value-binary-tree](./Assets/find-maximum-value-binary-tree.jpg)
+
+
 
