@@ -142,6 +142,13 @@ for this approach I am taking the testing brackets and running them through a st
 <!-- Embedded whiteboard image -->
 ![multi_Bracket_Validation](./Assets/multi-Bracket-Validation.jpg)
 
+# First Repeated Word
+<!-- Short summary or background information -->
+first repeated word
+
+## Challenge
+<!-- Description of the challenge -->
+return the first repeated word
 #
 #
 
@@ -160,9 +167,32 @@ Without utilizing any of the built-in methods available to your language, determ
 
 Return the tree with its news values.
 
+
+
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 Big O = O(n)
+
+
+for this approach i goting to put each word in a seperate array then i am going to compare that the current word by using two for loops like the tortise and the hare and when they both match the first time it will return said word.
+
+## Solution
+<!-- Embedded whiteboard image -->
+![repeated_word](./Assets/repeated_word.jpg)
+
+#
+#
+
+# Tree Intersection
+<!-- Short summary or background information -->
+Find common values in 2 binary trees.
+
+## Challenge
+<!-- Description of the challenge -->
+Write a function called tree_intersection that takes two binary tree parameters.
+
+
+
 for this im going to test that the numbers are actually in the tree. Test to see if they are actually numbers instead of objects. 
 
 ## Solution
@@ -192,12 +222,25 @@ return max value in the tree
 ## Challenge
 find the max value in the binary tree.
 
+
+
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 Big O = O(n)
+
+
+compare between both trees to findany cmmon nodes. 
+
+## Solution
+<!-- Embedded whiteboard image -->
+![tree_intersection](./Assets/tree_Intersection.jpg)
+
+
 i would test to see if the numbers returned are actually in the tree, check to see if they are not objects
 
 ## Solution
 <!-- Embedded whiteboard image -->
 ![find-maximum-value-binary-tree](./Assets/find-maximum-value-binary-tree.jpg)
+
+
 
