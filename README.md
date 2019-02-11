@@ -191,8 +191,6 @@ Find common values in 2 binary trees.
 <!-- Description of the challenge -->
 Write a function called tree_intersection that takes two binary tree parameters.
 
-
-
 for this im going to test that the numbers are actually in the tree. Test to see if they are actually numbers instead of objects. 
 
 ## Solution
@@ -222,7 +220,11 @@ return max value in the tree
 ## Challenge
 find the max value in the binary tree.
 
+i would test to see if the numbers returned are actually in the tree, check to see if they are not objects
 
+## Solution
+<!-- Embedded whiteboard image -->
+![find-maximum-value-binary-tree](./Assets/find-maximum-value-binary-tree.jpg)
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
@@ -235,12 +237,23 @@ compare between both trees to findany cmmon nodes.
 <!-- Embedded whiteboard image -->
 ![tree_intersection](./Assets/tree_Intersection.jpg)
 
+#
+#
 
-i would test to see if the numbers returned are actually in the tree, check to see if they are not objects
+# Implement a simplified LEFT JOIN for 2 Hashmaps.
+Write a function that LEFT JOINs two hashmaps into a single data structure
+
+## Challenge
+The first parameter is a hashmap that has word strings as keys, and a synonym of the key as values.
+The second parameter is a hashmap that has word strings as keys, and antonyms of the key as values.
+Combine the key and corresponding values (if they exist) into a new data structure according to LEFT JOIN logic.
+LEFT JOIN means all the values in the first hashmap are returned, and if values exist in the “right” hashmap, they are appended to the result row. If no values exist in the right hashmap, then some flavor of NULL should be appended to the result row.
+
+## Approach & Efficiency
+Big O = O(n)
+took two maps and joined them were they were common
 
 ## Solution
-<!-- Embedded whiteboard image -->
-![find-maximum-value-binary-tree](./Assets/find-maximum-value-binary-tree.jpg)
-
+![left_join](./Assets/left_join.jpg)
 
 
